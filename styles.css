@@ -1,0 +1,108 @@
+body {
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f9;
+    color: #333;
+  }
+  
+  .resume {
+    display: flex;
+    max-width: 1200px;
+    margin: 20px auto;
+    background: #fff;
+    border-radius: 8px;
+    overflow: hidden;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+  }
+  
+  .sidebar {
+    width: 30%;
+    background-color: #4B0082;
+    color: #fff;
+    text-align: center;
+    padding: 20px;
+  }
+  
+  .sidebar .profile-pic img {
+  
+    width: 120px;
+    height: 120px;
+    border-radius: 50%;
+    margin-bottom: 15px;
+    
+  }
+  
+  .sidebar h1 {
+    font-size: 24px;
+    margin: 10px 0;
+  }
+  
+  .sidebar h2 {
+    font-size: 18px;
+    font-weight: normal;
+    color: #ddd;
+  }
+  
+  .sidebar hr {
+    margin: 20px 0;
+    border: 0;
+    height: 1px;
+    background: #ddd;
+  }
+  
+  .sidebar h3 {
+    margin-top: 20px;
+    font-size: 16px;
+    color: #eee;
+  }
+  
+  .sidebar .contact-info {
+    list-style: none;
+    padding: 0;
+  }
+  
+  .sidebar .contact-info li {
+    margin: 10px 0;
+    font-size: 14px;
+  }
+  
+  .sidebar .contact-info a {
+    color: #ffd700;
+    text-decoration: none;
+  }
+  
+  .sidebar .contact-info a:hover {
+    text-decoration: underline;
+  }
+  
+  .main-content {
+    width: 70%;
+    padding: 20px;
+  }
+  
+  .main-content section {
+    margin-bottom: 20px;
+  }
+  
+  .main-content h3 {
+    font-size: 20px;
+    color: #4B0082;
+    margin-bottom: 10px;
+  }
+  
+  .main-content p, .main-content li {
+    line-height: 1.6;
+    font-size: 14px;
+    color: #555;
+  }
+  
+  .skills, .education, .experience, .projects {
+    list-style: none;
+    padding: 0;
+  }
+  
+  .skills li, .education li, .experience li, .projects li {
+    margin-bottom: 10px;
+  }
+  
